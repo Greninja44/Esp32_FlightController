@@ -1,3 +1,8 @@
+// test mpu using esp32
+// connect vcc --> 3.3v-(esp32)
+//gnd ----> gnd(esp32)
+//scl  --->> gpio 22
+// sda --->> gpio 21
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
 #include <Wire.h>
