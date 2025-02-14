@@ -25,29 +25,7 @@ This project is a drone flight controller based on the ESP32 microcontroller. It
 - ESP32 Board Support Package
 - MPU6050 Library
 - PID Control Algorithm
-- Bluetooth/Wi-Fi communication library
-
-## Setup Instructions
-1. **Assemble the Hardware**
-   - Mount ESP32 on the custom PCB.
-   - Connect the MPU6050 to ESP32 using I2C (SDA, SCL).
-   - Connect ESCs to ESP32 PWM pins.
-   - Power the system using a Li-Po battery.
-
-2. **Install Required Libraries**
-   ```sh
-   pip install esptool
-   ```
-   - Install MPU6050 library from Arduino Library Manager.
-
-3. **Calibrate IMU Sensor**
-   - Run the calibration script to get offset values.
-
-
-## Future Improvements
-- GPS integration for navigation
-- Barometer for altitude hold
-- FPV camera support
+  
 
 ## Contributing
 Feel free to submit issues and pull requests for enhancements.
