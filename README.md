@@ -9,7 +9,7 @@ This project is a drone flight controller based on the ESP32 microcontroller. It
 - Controls four brushless motors via ESCs (Electronic Speed Controllers)l
 - PID-based flight stabilization
 
-
+##STAGES OF CODE:
 ## Get values from gyroscope
 Gyro__values.ino Handwritten code after Understanding the architecture of MPU6050 can be used instead of MPU Libraries  and also implements Low pass filter
  Connections:
@@ -18,3 +18,7 @@ Gyro__values.ino Handwritten code after Understanding the architecture of MPU605
 - GND------->GND
 - SCL------->GPIO 22
 - SDA------->GPIO 21
+
+
+## Calibration
+calibration.ino Calibration added beacause the gyroscopic measurement values tends to drift over time . you cannot start the Motors yet during calibration because their vibrations will impact the quality of the calibration
