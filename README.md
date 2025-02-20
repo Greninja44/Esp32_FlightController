@@ -9,25 +9,12 @@ This project is a drone flight controller based on the ESP32 microcontroller. It
 - Controls four brushless motors via ESCs (Electronic Speed Controllers)l
 - PID-based flight stabilization
 
-## Hardware Requirements
-- ESP32 development board
-- MPU6050 IMU sensor
-- 4x Brushless motors
-- 4x ESCs
-- Li-Po battery
-- Custom PCB with mounting holes for ESP32 and sensors
-- Frame for the drone
-- Receiver(5 chanel)
-- Transmitter
 
-## Software Requirements
-- Arduino IDE / PlatformIO
-- ESP32 Board Support Package
-- MPU6050 Library
-- PID Control Algorithm
-  
-
-## Contributing
-Feel free to submit issues and pull requests for enhancements.
-
-
+## Get values from gyroscope
+Gyro__values.ino Handwritten code after Understanding the architecture of MPU6050 can be used instead of MPU Libraries
+ Connections:
+- Sensor------>ESP32
+- VCC------->5V
+- GND------->GND
+- SCL------->GPIO 22
+- SDA------->GPIO 21
