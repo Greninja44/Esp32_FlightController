@@ -22,3 +22,10 @@ Gyro__values.ino Handwritten code after Understanding the architecture of MPU605
 
 ## Calibration
 calibration.ino Calibration added beacause the gyroscopic measurement values tends to drift over time . you cannot start the Motors yet during calibration because their vibrations will impact the quality of the calibration
+
+## PPM
+![image](https://github.com/user-attachments/assets/73c13e3f-2f67-4cc9-ad51-7841a81bd7c8)
+
+PPM_Transmitter  reads PPM (Pulse Position Modulation) signals from an RC receiver using the RMT (Remote Control) module, decodes multiple channel values (Roll, Pitch, Throttle, Yaw), and prints them via Serial Monitor in real-time
+
+![image](https://github.com/user-attachments/assets/29c1ab04-e137-461c-aa81-0b8c7dfb6df1)
